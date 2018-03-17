@@ -1,0 +1,10 @@
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\bin\Release\netcoreapp2.0\OCCAZB2CDemo.deps.json
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\bin\Release\netcoreapp2.0\OCCAZB2CDemo.runtimeconfig.json
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\bin\Release\netcoreapp2.0\OCCAZB2CDemo.runtimeconfig.dev.json
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\bin\Release\netcoreapp2.0\OCCAZB2CDemo.dll
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\bin\Release\netcoreapp2.0\OCCAZB2CDemo.pdb
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\obj\Release\netcoreapp2.0\OCCAZB2CDemo.csproj.CoreCompileInputs.cache
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\obj\Release\netcoreapp2.0\OCCAZB2CDemo.AssemblyInfoInputs.cache
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\obj\Release\netcoreapp2.0\OCCAZB2CDemo.AssemblyInfo.cs
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\obj\Release\netcoreapp2.0\OCCAZB2CDemo.dll
+C:\LEARN\OCCAZB2CDemo\OCCAZB2CDemo\obj\Release\netcoreapp2.0\OCCAZB2CDemo.pdb
