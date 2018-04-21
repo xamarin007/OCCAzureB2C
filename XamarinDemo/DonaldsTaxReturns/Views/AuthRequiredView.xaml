@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DonaldsTaxReturns.Views.AuthRequiredView">
+     <ContentView.Content>
+         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackLayout Orientation="Horizontal" Margin="10" Grid.Row="0" >
+                <Image Aspect="AspectFit" Source="authDonald" HorizontalOptions="Start" />
+                <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand" Margin="10" Padding="0,10">
+                    <Label Text="{Binding DisplayName, StringFormat='Hello {0}!'}" 
+                           FontAttributes="Bold"
+                           VerticalOptions="FillAndExpand" 
+                           HorizontalOptions="FillAndExpand"
+                           HorizontalTextAlignment="Center" 
+                           VerticalTextAlignment="Center" />
+                    <Button Text="Sign out" TextColor="White" BackgroundColor="#722424" 
+                            BorderRadius="15" HorizontalOptions="FillAndExpand"
+                            Clicked="Handle_Clicked" />
+                </StackLayout>
+            </StackLayout>
+            <Label Grid.Row="1" Text="{Binding City, StringFormat='You are from {0}'}" 
+                   Margin="10" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" />
+            
+            <ListView Grid.Row="2" x:Name="taxReturnsList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Year}" Detail="{Binding TaxPaid}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
